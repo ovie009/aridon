@@ -23,10 +23,10 @@ yarn-debug.log*
 yarn-error.log*
 
 # Direction Board
-./Aridon-Direction-Board.pdf
+/Aridon-Direction-Board.pdf
 
 # Aridon Text
-./Aridon.txt
+/Aridon.txt
 
 # Reference Design
-./src/design
+/src/design
