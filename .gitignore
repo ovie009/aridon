@@ -21,3 +21,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Direction Board
+./Aridon-Direction-Board.pdf
+
+# Aridon Text
+./Aridon.txt
+
+# Reference Design
+./src/design
