@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Prata&display=swap');
+
+@font-face {
+  font-family: 'The Artist Script';
+  src: url('../fonts/TheArtistScript.otf');
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+button{
+  border: none;
+  background-color: unset;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Prata', serif;
+  font-family: 'The artist script', cursive;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
