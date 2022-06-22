@@ -31,7 +31,7 @@ const LeadSection = () => {
                 <div className="lead-content-wrapper">
                     <div className="text-wrapper">
                         <h1>
-                            Order Urkpe
+                            Order Urukpe
                         </h1>
                         <p>
                             Urukpe is a custom chopping board with woven leather handle and adorned with art.

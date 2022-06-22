@@ -1,6 +1,7 @@
 :root{
     /* lighter shades */
-    --ls-1: #d1beb0; /* Dark Vanilla */
+    --ls-0: #FFFFFF; /* Dark Vanilla */
+    --ls-1: hsl(25, 26%, 75%); /* Dark Vanilla */
     --lst-1: hsla(25, 26%, 75%, 0.5); /* Dark Vanilla */
     --ls-2: #e4bab8; /* Craven Pink */
     --lst-2: hsla(3, 45%, 81%, 0.5); /* Craven Pink */
