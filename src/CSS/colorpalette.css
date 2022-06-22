@@ -1,5 +1,6 @@
 :root{
     /* lighter shades */
+    --ls-0: #FFFFFF; /* white */
     --ls-1: #d1beb0; /* Dark Vanilla */
     --lst-1: hsla(25, 26%, 75%, 0.5); /* Dark Vanilla */
     --ls-2: #e4bab8; /* Craven Pink */
@@ -12,4 +13,5 @@
     --dst-1: hsla(5, 63%, 36%, 0.5); /* Vivid Autumn */
     --ds-2: #433028; /* English Walnut */
     --ds-3: #240900; /* kilamanjaro */
+    --dst-3: hsla(15, 100%, 7%, 0.5); /* kilamanjaro */
 }
