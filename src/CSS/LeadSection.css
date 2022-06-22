@@ -1,0 +1,116 @@
+.lead{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.slider{
+    display: flex;
+    justify-content: flex-start;
+    width: fit-content;
+    align-items: center;
+    position: absolute;
+    left: 0vw;
+    animation: slideShow infinite 50s;
+}
+
+.slide{
+    width: 100vw;
+    height: 100vh;
+}
+
+.slide-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lead-content-wrapper{
+    margin-top: 20vh;
+    width: 90%;
+    height: fit-content;
+    height: 50vh;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+    background-color: var(--dst-1);
+    border-radius: 10px;
+}
+
+.text-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: column;
+    height: 40vh;
+    gap: 15px;
+}
+
+.text-wrapper h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.text-wrapper p{
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+}
+
+.text-wrapper span{
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+}
+
+.order{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: var(--ds-3);
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+@keyframes slideShow {
+    0%{ left: 0vw; }
+    16%{ left: 0vw; }
+    20%{ left: -100vw; }
+    36%{ left: -100vw; }
+    40%{ left: -200vw; }
+    56%{ left: -200vw; }
+    60%{ left: -300vw; }
+    76%{ left: -300vw; }
+    80%{ left: -400vw; }
+    96%{ left: -400vw; }
+    100%{ left: 0vw; }
+}

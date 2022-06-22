@@ -1,10 +1,11 @@
 import '../CSS/App.css';
+import LeadSection from './LeadSection';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Aridon</h1>
-    </div>
+    <main className="App">
+      <LeadSection></LeadSection>
+    </main>
   );
 }
 
