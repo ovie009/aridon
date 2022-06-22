@@ -97,7 +97,7 @@ nav{
 #close-icon{
     font-size: 40px;
     color: var(--ls-1);
-    color: white;
+    color: var(--ls-0);
 }
 
 .sidebar-list{
@@ -127,7 +127,7 @@ nav{
 
 .sidebar-list a{
     color: var(--ls-1);
-    color: white;
+    color: var(--ls-0);
     text-decoration: none;
     font-size: 25px;
     text-transform: capitalize;
