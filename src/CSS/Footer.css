@@ -1,3 +1,6 @@
+footer{
+}
+
 .footer-form-wrapper{
     height: 50vh;
     width: 100%;
@@ -16,6 +19,7 @@
 }
 
 .footer-heading{
+    font-family: 'DM Sans', sans-serif;
     color: var(--ds-3);
     padding-inline: 30px;
     font-weight: 500;
@@ -23,6 +27,7 @@
 
 .footer-list{
     list-style: none;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .footer-base-wrapper{
@@ -54,10 +59,13 @@ form{
 
 ::placeholder{
     color: lightgray;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 1px;
 }
 
 form button{
     height: 45px;
+    font-family: 'DM Sans', sans-serif;
     border-radius: 5px;
     border: none;
     color: var(--ls-0);
