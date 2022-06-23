@@ -1,0 +1,108 @@
+.footer-form-wrapper{
+    height: 50vh;
+    width: 100%;
+    background-color: var(--ls-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    gap: 20px;
+}
+
+.footer-preview{
+    color: var(--ds-1);
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+.footer-heading{
+    color: var(--ds-3);
+    padding-inline: 30px;
+    font-weight: 500;
+}
+
+.footer-list{
+    list-style: none;
+}
+
+.footer-base-wrapper{
+    height: 50vh;
+    width: 100%;
+    background-color: var(--ds-2);
+    display: flex;
+    align-items: center;
+    padding-block: 20px;
+    justify-content: space-between;
+    flex-flow: column;
+}
+
+form{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    padding-inline: 30px;
+    max-width: 500px;
+    gap: 10px;
+}
+
+#email{
+    height: 45px;
+    padding: 0 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+::placeholder{
+    color: lightgray;
+}
+
+form button{
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    color: var(--ls-0);
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    background-color: var(--ds-1);
+}
+
+.footer-logo{
+    color: var(--ls-0);
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.footer-icon-wrapper{
+    width: 30px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+#facebook-icon, #whatsapp-icon{
+    color: white !important;
+    font-size: 30px;
+}
+
+.footer-list{
+    height: 70%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    color: var(--ls-0);
+    text-align: center;
+}

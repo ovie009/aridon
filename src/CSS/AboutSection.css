@@ -1,0 +1,52 @@
+.about-section{
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+.about-section-text-wrapper{
+    height: 50vh;
+    width: 100%;
+    padding: 50px 20px;
+}
+
+.about-section-heading{
+    font-size: 30px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.about-section-heading span{
+    position: absolute;
+    width: 50%;
+    height: 8px;
+    border-radius: 5px 5px 0 0;
+    background-color: var(--ls-2);
+    bottom: -2px;
+    margin-left: -25%;
+}
+
+.about-section-paragraph{
+    text-align: center;
+    width: 100%;
+    line-height: 30px;
+}
+
+.about-section-image-wrapper{
+    height: 50vh;
+    width: 100%;
+    background-image: url(../images/mobile/006.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-section-image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}

@@ -42,6 +42,7 @@
 .lead-content-wrapper{
     margin-top: 20vh;
     width: 90%;
+    max-width: 400px;
     height: fit-content;
     height: 50vh;
     padding: 20px;
@@ -52,6 +53,7 @@
     z-index: 5;
     background-color: var(--dst-1);
     border-radius: 10px;
+    box-shadow: 0 0 10px var(--ds-3);
 }
 
 .text-wrapper{
@@ -64,7 +66,7 @@
 }
 
 .text-wrapper h1{
-    font-size: 40px;
+    font-size: 35px;
     width: 100%;
     text-align: center;
     white-space: nowrap;

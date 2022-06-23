@@ -1,0 +1,53 @@
+.third-section{
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+.third-section-text-wrapper{
+    height: 50vh;
+    width: 100%;
+    padding: 50px 20px;
+}
+
+.third-section-heading{
+    font-size: 30px;
+    width: 100%;
+    color: var(--ds-3);
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.third-section-heading span{
+    position: absolute;
+    width: 40%;
+    height: 8px;
+    border-radius: 5px 5px 0 0;
+    background-color: var(--ls-3);
+    bottom: -2px;
+    margin-left: -20%;
+}
+
+.third-section-paragraph{
+    text-align: center;
+    width: 100%;
+    line-height: 30px;
+}
+
+.third-section-image-wrapper{
+    height: 50vh;
+    width: 100%;
+    background-image: url(../images/mobile/008extra\(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.third-section-image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
