@@ -66,23 +66,23 @@ nav{
 
 .sidebar{
     position: fixed;
-    width: 100%;
+    width: 100VW;
     height: 100vh;
     background-color: var(--dst-1);
     backdrop-filter: blur(20px);
     z-index: 10;
     transition: 350ms;
-    bottom: 100vh;
+    top: -100vh;
     transition: 500ms ease-in;
     display: flex;
     flex-flow: column;
     justify-content: flex-start;
     align-items: flex-start;
+    padding-block: 20px;
 }
 
 .sidebar-wrapper{
     background-color: unset;
-    /* justify-content: flex-end; */
 }
 
 .sidebar-logo{

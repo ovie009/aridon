@@ -31,6 +31,30 @@
 .slide{
     width: 100vw;
     height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.slide:nth-child(1){
+    background-image: url('../images/mobile/001.jpg');
+}
+
+.slide:nth-child(2){
+    background-image: url('../images/mobile/002.jpg');
+}
+
+.slide:nth-child(3){
+    background-image: url('../images/mobile/003.jpg');
+}
+
+.slide:nth-child(4){
+    background-image: url('../images/mobile/004.jpg');
+}
+
+.slide:nth-child(5){
+    background-image: url('../images/mobile/005.jpg');
 }
 
 .slide-image{
@@ -88,6 +112,7 @@
     color: var(--ls-0);
     text-align: center;
 }
+
 
 .order{
     width: 100%;

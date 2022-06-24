@@ -20,7 +20,7 @@ const Navbar = () => {
                 </button>
             </div>
             <div className="sidebar" style={{
-                bottom: `${sidebar ? '0vh' : '100vh'}`
+                top: `${sidebar ? '0vh' : '-100vh'}`
             }}>
                 <div className="sidebar-wrapper">
                     <Link to="/" className="sidebar-logo">
