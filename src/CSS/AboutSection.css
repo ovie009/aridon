@@ -30,6 +30,10 @@
     margin-left: -25%;
 }
 
+#about-bird{
+    display: none;
+}
+
 .about-section-paragraph{
     text-align: center;
     width: 100%;
@@ -49,4 +53,65 @@
     object-fit: cover;
     height: 100%;
     width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .about-section-text-wrapper{
+        padding: 10% 20%;
+    }
+
+    .about-section-heading{
+        margin-block: 20px;
+    }
+
+    .about-section-paragraph{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    
+}
+
+
+@media screen and (min-width: 1366px) {
+    .about-section{
+        flex-flow: row;
+        height: 100vh;
+    }
+
+    .about-section-image-wrapper{
+        width: 50vw;
+        height: 100%;
+    }
+
+    .about-section-text-wrapper{
+        width: 50vw;
+        height: 100%;
+        padding: 10%;
+    }
+
+    .about-section-paragraph{
+        text-align: left;
+    }
+
+    .about-section-heading{
+        /* background-color: red; */
+        width: fit-content;
+        justify-content: flex-start;
+    }
+
+    .about-section-heading span{
+        margin-left: 30%;
+        width: 100%;
+    }
+
+    #about-bird{
+        display: block;
+        position: absolute;
+        width: 60px;
+        right: -50px;
+    }
+
+    .about-section-image-wrapper{
+        background-image: url(../images/Desktop/006.jpg);
+    }
 }

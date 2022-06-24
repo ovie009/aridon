@@ -1,4 +1,5 @@
 import '../CSS/ThirdSection.css';
+import bird from '../images/birds/humming-bird2.png';
 
 const ThirdSection = () => {
     return (  
@@ -9,6 +10,7 @@ const ThirdSection = () => {
                 <h2 className="third-section-heading">
                     The Design
                     <span></span>
+                    <img src={bird} alt="humming bird" id='third-bird'/>
                 </h2>
                 <p  className="third-section-paragraph">
                     We can gracefully hoist our flags as a power house in contemporary Nigerian design. 

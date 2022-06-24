@@ -1,4 +1,5 @@
 import '../CSS/AboutSection.css';
+import bird from '../images/birds/humming-bird1.png';
 
 const AboutSection = () => {
     return (  
@@ -9,6 +10,7 @@ const AboutSection = () => {
                 <h2 className="about-section-heading">
                     About Aridón
                     <span></span>
+                    <img src={bird} alt="humming bird" id="about-bird"/>
                 </h2>
                 <p  className="about-section-paragraph">
                     Aridon is a contemporary yet traditional design studio working across product design Interior. 

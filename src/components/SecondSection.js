@@ -1,4 +1,5 @@
 import '../CSS/SecondSection.css';
+import secondBird from '../images/birds/humming-bird1.png';
 
 const SecondSection = () => {
     return (  
@@ -9,6 +10,7 @@ const SecondSection = () => {
                 <h2 className="second-section-heading">
                     Urukpe
                     <span></span>
+                    <img src={secondBird} alt="humming bird" id="second-bird"/>
                 </h2>
                 <p  className="second-section-paragraph">
                     As our first product, Urukpe is significant and inspiring to us.

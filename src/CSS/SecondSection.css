@@ -31,6 +31,10 @@
     margin-left: -10%
 }
 
+#second-bird{
+    display: none;
+}
+
 .second-section-paragraph{
     text-align: center;
     width: 100%;
@@ -50,4 +54,67 @@
     object-fit: cover;
     height: 100%;
     width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .second-section-text-wrapper{
+        padding: 10% 20%;
+    }
+
+    .second-section-heading{
+        margin-block: 20px;
+    }
+
+    .second-section-paragraph{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    
+}
+
+@media screen and (min-width: 1366px) {
+    .second-section{
+        flex-flow: row;
+        height: 100vh;
+    }
+
+    .second-section-image-wrapper{
+        width: 50vw;
+        height: 100%;
+    }
+
+    .second-section-text-wrapper{
+        width: 50vw;
+        height: 100%;
+        padding: 10%;
+    }
+
+    .second-section-paragraph{
+        text-align: left;
+    }
+    
+    .second-section-heading{
+        /* background-color: red; */
+        width: fit-content;
+        justify-content: flex-start;
+    }
+
+    .second-section-heading span{
+        margin-left: 30%;
+        width: 100%;
+    }
+
+    
+    #second-bird{
+        display: block;
+        position: absolute;
+        width: 60px;
+        right: -50px;
+    }
+    
+    .second-section-image-wrapper{
+        background-image: url(../images/Desktop/008extra.jpg);
+    }
+
+
 }

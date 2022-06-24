@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+.lead-text-wrapper{
+    display: none;
+}
+
 .slide-container{
     height: 100vh;
     width: 100vw;
@@ -69,6 +73,7 @@
     max-width: 400px;
     height: fit-content;
     height: 50vh;
+    max-height: 400px;
     padding: 20px;
     display: flex;
     flex-flow: column;
@@ -143,4 +148,109 @@
     80%{ left: -400vw; }
     96%{ left: -400vw; }
     100%{ left: 0vw; }
+}
+
+@media screen and (min-width: 768px) {
+    .lead-content-wrapper{
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+
+    .slide-container{
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .slide-container{
+        width: 50%;
+        height: 100%;
+        display: none;
+    }
+    
+    .lead-text-wrapper{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .product-details-wrapper{
+        width: 55%;
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 15% 50px;
+    }
+
+    .product-text-wrapper h1{
+        font-size: 60px;
+        color: var(--ds-3);
+        margin-block: 20px;
+    }
+    
+    .product-text-wrapper P{
+        font-size: 20px;
+        color: var(--ds-3);
+        max-width: 20ch;
+        margin-block: 20px;
+        line-height: 30px;
+    }
+
+    .product-order{
+        width: 200px;
+        height: 50px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: var(--ls-0);
+        background-color: var(--ds-1);
+        box-shadow: 2px 2px 5px var(--dst-1);
+    }
+    
+    .preview-details-wrapper{
+        background-color: var(--ds-1);
+        width: 45%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 50px;
+    }
+
+    .preview-text{
+        color: var(--ls-0);
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .display-image{
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        left: 30%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .orange{
+        position: absolute;
+        width: 100px;
+        bottom: -50px;
+        margin-left: 50px;
+        filter: drop-shadow(10px 20px 20px var(--ds-3));
+    }
+
+    #displayed-image{
+        filter: drop-shadow(10px 20px 20px var(--ds-3));
+        height: 100%;
+    }
 }

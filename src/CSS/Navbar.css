@@ -32,6 +32,10 @@ nav{
     /* animation: logoColor infinite 50s; */
 }
 
+.navlist{
+    display: none;
+}
+
 
 @keyframes logoColor {
     0%{ color: var(--ds-3) }
@@ -129,4 +133,34 @@ nav{
     font-weight: bold;
     letter-spacing: 2px;
     /* font-family: 'The artist script', cursive; */
+}
+
+@media screen and (min-width: 768px) {
+    .open-sidenav{
+        display: none;
+    }
+    
+    .sidebar{
+        display: none;
+    }
+
+    .logo{
+        color: var(--ds-3);
+    }
+
+    .navlist{
+        display: flex;
+        gap: 30px;
+        list-style-type: none;
+    }
+
+    .navlist-items a{
+        text-decoration: none;
+        color: var(--ls-0);
+        cursor: pointer;
+    }
+
+    .navlist-items a:hover{
+        text-decoration: underline;
+    }
 }
