@@ -86,6 +86,8 @@
     line-height: 30px;
     color: var(--ds-3);
     text-align: center;
+    max-width: 40ch;
+    margin-block: 10px;
 }
 
 .text-wrapper span{
@@ -128,15 +130,31 @@
     100%{ left: 0vw; }
 }
 
-@media screen and (min-width: 768px) {
-    .lead-content-wrapper{
-        margin-top: 0;
-        margin-bottom: 100px;
+/* styling specific to galaxy fold */
+@media screen and (max-width: 280px) {
+    .text-wrapper h1{
+        font-size: 30px;
     }
 
-    .slide-container{
-        justify-content: center;
+    .text-wrapper{
+        gap: 0px;
     }
+
+    .text-wrapper p{
+        margin-block: 0px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .slide-image{
+        height: 110%;
+    }    
+
+    .text-wrapper p{
+        line-height: 35px;
+        text-align: center;
+    }
+    
 }
 
 @media screen and (min-width: 1366px) {
@@ -224,7 +242,7 @@
     .orange{
         position: absolute;
         width: 7.5%;
-        bottom: -60px;
+        bottom: -7.5%;
         margin-left: 60px;
         filter: drop-shadow(10px 20px 20px var(--ds-3));
     }
@@ -233,12 +251,4 @@
         filter: drop-shadow(10px 20px 20px var(--ds-3));
         height: 100%;
     }
-}
-
-@media screen and (min-width: 1920) {
-    .product-text-wrapper P{
-        width: 40ch !important;
-        background-color: red !important;
-    }
-
 }

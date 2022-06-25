@@ -144,10 +144,6 @@ nav{
         display: none;
     }
 
-    .logo{
-        color: var(--ds-3);
-    }
-
     .navlist{
         display: flex;
         gap: 20px;
@@ -173,5 +169,12 @@ nav{
 
     .navbar-wrapper{
         padding-inline: 3.75%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .logo{
+        color: var(--ds-3);
+        font-size: 65px;
     }
 }
