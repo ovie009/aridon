@@ -1,6 +1,11 @@
 import '../CSS/LeadSection.css';
 import {Link} from 'react-router-dom';
 import displayImage from '../images/display/display3.png';
+import image1 from '../images/display/display1.png';
+import image2 from '../images/display/display2.png';
+import image3 from '../images/display/display3.png';
+import image4 from '../images/display/display4.png';
+import image5 from '../images/display/display5.png';
 import orange from '../images/display/orange.png';
  
 const LeadSection = () => {
@@ -30,16 +35,26 @@ const LeadSection = () => {
             </div>
             <div className="slide-container">
                 <div className="slider">
-                    <div className="slide"></div>
-                    <div className="slide"></div>
-                    <div className="slide"></div>
-                    <div className="slide"></div>
-                    <div className="slide"></div>
+                    <div className="slide">
+                        <img src={image1} className="slide-image" />
+                    </div>
+                    <div className="slide">
+                        <img src={image2} className="slide-image" />
+                    </div>
+                    <div className="slide">
+                        <img src={image3} className="slide-image" />
+                    </div>
+                    <div className="slide">
+                        <img src={image4} className="slide-image" />
+                    </div>
+                    <div className="slide">
+                        <img src={image5} className="slide-image" />
+                    </div>
                 </div>
                 <div className="lead-content-wrapper">
                     <div className="text-wrapper">
                         <h1>
-                            Order Urukpe
+                            Urukpe
                         </h1>
                         <p>
                             Urukpe is a custom chopping board with woven leather handle and adorned with art.

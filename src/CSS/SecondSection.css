@@ -23,13 +23,14 @@
 
 .second-section-heading span{
     position: absolute;
-    width: 30%;
+    width: 50%;
     height: 8px;
     border-radius: 5px 5px 0 0;
     background-color: var(--ls-2);
     bottom: -2px;
-    margin-left: -10%
+    margin-left: -35%;
 }
+
 
 #second-bird{
     display: none;

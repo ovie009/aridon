@@ -8,7 +8,7 @@ const SecondSection = () => {
             </div>
             <div className="second-section-text-wrapper">
                 <h2 className="second-section-heading">
-                    Urukpe
+                    About Urukpe
                     <span></span>
                     <img src={secondBird} alt="humming bird" id="second-bird"/>
                 </h2>

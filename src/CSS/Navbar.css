@@ -55,7 +55,7 @@ nav{
     height: 40px;
     aspect-ratio: 1/1;
     z-index: 8;
-    background-color: var(--dst-1);
+    /* background-color: var(--dst-1); */
     border-radius: 5px;
     display: grid;
     place-items: center;
