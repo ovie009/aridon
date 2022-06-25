@@ -36,7 +36,7 @@ const Footer = () => {
                 <ul className="socials-list">
                     <li className="footer-list-items">
                         <Link to='/'>
-                            <ion-icon id="facebook-icon" name="logo-facebook"></ion-icon>
+                            <ion-icon id="facebook-icon" name="logo-instagram"></ion-icon>
                         </Link>
                     </li>
                     <li className="footer-list-items">

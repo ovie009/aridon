@@ -148,4 +148,8 @@ form button{
     form button{
         width: 30%;
     }
+
+    .socials-list{
+        margin-bottom: 0;
+    }
 }
