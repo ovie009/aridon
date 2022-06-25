@@ -36,19 +36,19 @@ const LeadSection = () => {
             <div className="slide-container">
                 <div className="slider">
                     <div className="slide">
-                        <img src={image1} className="slide-image" />
+                        <img src={image1} className="slide-image" alt="Urukpe Chopping Board"/>
                     </div>
                     <div className="slide">
-                        <img src={image2} className="slide-image" />
+                        <img src={image2} className="slide-image" alt="Urukpe Chopping Board"/>
                     </div>
                     <div className="slide">
-                        <img src={image3} className="slide-image" />
+                        <img src={image3} className="slide-image" alt="Urukpe Chopping Board"/>
                     </div>
                     <div className="slide">
-                        <img src={image4} className="slide-image" />
+                        <img src={image4} className="slide-image" alt="Urukpe Chopping Board"/>
                     </div>
                     <div className="slide">
-                        <img src={image5} className="slide-image" />
+                        <img src={image5} className="slide-image" alt="Urukpe Chopping Board"/>
                     </div>
                 </div>
                 <div className="lead-content-wrapper">
