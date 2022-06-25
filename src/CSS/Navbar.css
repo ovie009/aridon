@@ -150,17 +150,28 @@ nav{
 
     .navlist{
         display: flex;
-        gap: 30px;
+        gap: 20px;
         list-style-type: none;
+        align-items: center;
     }
 
     .navlist-items a{
         text-decoration: none;
         color: var(--ls-0);
         cursor: pointer;
+        padding: 10px 20px;
+        box-sizing: unset;
+        transition: 500ms ease-in;
+        border-radius: 6px;
+        font-weight: bold;
+    }
+    
+    .navlist-items a:hover{
+        background-color: var(--ls-0);
+        color: var(--ds-3);
     }
 
-    .navlist-items a:hover{
-        text-decoration: underline;
+    .navbar-wrapper{
+        padding-inline: 3.75%;
     }
 }
