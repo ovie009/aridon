@@ -1,11 +1,11 @@
 import '../CSS/LeadSection.css';
 import {Link} from 'react-router-dom';
 import displayImage from '../images/display/display3.png';
-import image1 from '../images/display/display1.png';
-import image2 from '../images/display/display2.png';
-import image3 from '../images/display/display3.png';
+import image1 from '../images/display/display3.png';
+import image2 from '../images/display/display5.png';
+import image3 from '../images/display/display2.png';
 import image4 from '../images/display/display4.png';
-import image5 from '../images/display/display5.png';
+import image5 from '../images/display/display1.png';
 import orange from '../images/display/orange.png';
  
 const LeadSection = () => {
