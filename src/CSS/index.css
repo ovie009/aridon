@@ -62,5 +62,5 @@ code {
 }
 
 ::-webkit-scrollbar-thumb:hover{
-  background-color: var(--ls-3);
+  background-color: var(--ls-1);
 }
