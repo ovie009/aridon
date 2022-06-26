@@ -122,9 +122,11 @@ form button{
         height: fit-content;
         padding: 50px;
         padding-inline: 20%;
+        min-height: unset;
     }
-
+    
     .footer-base-wrapper{
+        min-height: unset;
         height: 80px;
         flex-flow: row;
         padding-inline: 10%;
