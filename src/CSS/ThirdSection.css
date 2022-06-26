@@ -4,7 +4,7 @@
 }
 
 .third-section-text-wrapper{
-    height: 50vh;
+    min-height: 50vh;
     width: 100%;
     padding: 50px 20px;
 }
@@ -46,6 +46,7 @@
 
 .third-section-image-wrapper{
     height: 50vh;
+    min-height: 240px;
     width: 100%;
     background-image: url(../images/mobile/008extra\(1\).jpg);
     background-position: center;

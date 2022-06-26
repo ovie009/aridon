@@ -1,5 +1,5 @@
 .footer-form-wrapper{
-    height: 50vh;
+    min-height: 50vh;
     width: 100%;
     background-color: var(--ls-2);
     display: flex;
@@ -7,6 +7,7 @@
     align-items: center;
     flex-flow: column;
     gap: 20px;
+    padding-block: 20px;
 }
 
 .footer-preview{
@@ -29,7 +30,8 @@
 }
 
 .footer-base-wrapper{
-    height: 50vh;
+    min-height: 50vh;
+    padding-block: 20px;
     width: 100%;
     background-color: var(--ds-1);
     display: flex;
@@ -37,6 +39,7 @@
     padding-block: 20px;
     justify-content: space-between;
     flex-flow: column;
+    gap: 20px;
 }
 
 form{
