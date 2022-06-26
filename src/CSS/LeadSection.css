@@ -29,7 +29,7 @@
     height: fit-content;
     width: 100vw;
     height: 50vh;
-    min-height: 240px;
+    min-height: 300px;
     z-index: 2;
 }
 
@@ -47,7 +47,7 @@
 .slide{
     width: 100vw;
     height: 50vh;
-    min-height: 240px;
+    min-height: 300px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
