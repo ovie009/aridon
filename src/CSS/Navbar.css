@@ -72,7 +72,7 @@ nav{
     position: fixed;
     width: 100VW;
     height: 100vh;
-    background-color: var(--dst-1);
+    background-color: var(--dst-2);
     backdrop-filter: blur(20px);
     z-index: 10;
     transition: 350ms;
@@ -129,11 +129,10 @@ nav{
     color: var(--ls-0);
     text-decoration: none;
     font-size: 20px;
-    text-transform: capitalize;
     text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: bold;
     letter-spacing: 2px;
-    /* font-family: 'The artist script', cursive; */
 }
 
 @media screen and (min-width: 768px) {

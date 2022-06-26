@@ -12,5 +12,7 @@
     --ds-1: #972b22; /* Vivid Autumn */
     --dst-1: hsla(5, 63%, 36%, 0.5); /* Vivid Autumn */
     --ds-2: #433028; /* English Walnut */
+    --dst-2: hsla(18, 25%, 21%, 0.5); /* English Walnut */
     --ds-3: #240900; /* kilamanjaro */
+    --ds-4: hsl(18, 100%, 1%); /* kilamanjaro */
 }

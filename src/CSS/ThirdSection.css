@@ -5,6 +5,8 @@
 
 .third-section-text-wrapper{
     min-height: 50vh;
+    background-color: var(--ds-2);
+    color: var(--ls-0);
     width: 100%;
     padding: 50px 20px;
 }
@@ -12,23 +14,24 @@
 .third-section-heading{
     font-size: 30px;
     width: 100%;
-    color: var(--ds-3);
+    color: var(--ls-0);
     position: relative;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     margin-bottom: 20px;
+    width: fit-content;
+    margin-inline: auto;
 }
 
 .third-section-heading span{
     position: absolute;
-    width: 40%;
+    width: calc(100% + 40px);
     height: 8px;
     border-radius: 5px 5px 0 0;
     background-color: var(--ls-3);
     bottom: -2px;
-    margin-left: -20%;
 }
 
 #third-bird{
@@ -100,13 +103,9 @@
 
     .third-section-heading{
         /* background-color: red; */
-        width: fit-content;
         justify-content: flex-start;
-    }
-
-    .third-section-heading span{
-        margin-left: 30%;
-        width: 100%;
+        margin-inline: unset;
+        
     }
 
     #third-bird{

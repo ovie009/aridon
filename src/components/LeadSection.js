@@ -55,7 +55,7 @@ const LeadSection = () => {
                 </div>
                 <div className="lead-content-wrapper">
                     <div className="text-wrapper">
-                        <h1>
+                        <h1 id='main-heading'>
                             Urukpe
                         </h1>
                         <p>

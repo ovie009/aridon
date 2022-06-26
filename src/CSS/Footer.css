@@ -1,7 +1,7 @@
 .footer-form-wrapper{
     min-height: 50vh;
     width: 100%;
-    background-color: var(--ls-2);
+    background-color: var(--ls-1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@
     min-height: 50vh;
     padding-block: 20px;
     width: 100%;
-    background-color: var(--ds-1);
+    background-color: var(--ds-2);
     display: flex;
     align-items: center;
     padding-block: 20px;
@@ -73,7 +73,7 @@ form button{
     font-weight: bold;
     letter-spacing: 2px;
     text-transform: capitalize;
-    background-color: var(--ds-1);
+    background-color: var(--ds-2);
 }
 
 .footer-logo{
