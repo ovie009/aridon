@@ -26,6 +26,7 @@
 
 .footer-list{
     list-style: none;
+    gap: 30px;
     font-family: 'DM Sans', sans-serif;
 }
 
