@@ -11,6 +11,10 @@
   margin: 0;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 button{
   border: none;
   background-color: unset;
