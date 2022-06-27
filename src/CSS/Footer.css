@@ -26,8 +26,15 @@
 
 .footer-list{
     list-style: none;
-    gap: 30px;
+    gap: 20px;
     font-family: 'DM Sans', sans-serif;
+}
+
+.footer-list A{ 
+    text-decoration: none;
+    color: var(--ls-0);
+    font-size: 20px;
+    letter-spacing: 3px;
 }
 
 .footer-base-wrapper{

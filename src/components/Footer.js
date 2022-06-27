@@ -24,13 +24,19 @@ const Footer = () => {
                         </span>
                     </li>
                     <li className="footer-list-items">
-                        PRODUCTS
+                        <Link to="/">
+                            PRODUCTS
+                        </Link>
                     </li>
                     <li className="footer-list-items">
-                        ABOUT
+                        <Link to="/">
+                            ABOUT
+                        </Link>
                     </li>
                     <li className="footer-list-items">
-                        CONTACT
+                        <Link to="/">
+                            CONTACT
+                        </Link>
                     </li>
                 </ul>
                 <ul className="socials-list">
