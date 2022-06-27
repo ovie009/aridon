@@ -34,6 +34,7 @@
 .footer-list a{
     text-decoration: none;
     color: var(--ls-0);
+    font-size: 20px;
 }
 
 .footer-base-wrapper{
