@@ -14,6 +14,7 @@
     color: var(--ds-1);
     letter-spacing: 3px;
     font-size: 12px;
+    font-family: 'Unica One', cursive;
 }
 
 .footer-heading{
@@ -26,8 +27,13 @@
 
 .footer-list{
     list-style: none;
-    gap: 30px;
+    gap: 20px;
     font-family: 'DM Sans', sans-serif;
+}
+
+.footer-list a{
+    text-decoration: none;
+    color: var(--ls-0);
 }
 
 .footer-base-wrapper{

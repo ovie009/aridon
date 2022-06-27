@@ -12,7 +12,7 @@
 }
 
 .second-section-heading{
-    font-size: 35px;
+    font-size: 30px;
     width: 100%;
     color: var(--ls-0);
     position: relative;
@@ -101,6 +101,7 @@
     
     .second-section-heading{
         /* background-color: red; */
+        font-size: 35px;
         width: fit-content;
         margin-inline: unset;
         justify-content: flex-start;
