@@ -1,5 +1,6 @@
 import '../CSS/Footer.css';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import logo from '../images/logo/logo-light.png';
 
 const Footer = () => {
     return ( 
@@ -19,9 +20,7 @@ const Footer = () => {
             <div className="footer-base-wrapper">
                 <ul className="footer-list">
                     <li className="footer-list-items">
-                        <span className="footer-logo">
-                            Aridon
-                        </span>
+                        <img src={logo} alt="aridon logo" className='footer-logo'/>
                     </li>
                     <li className="footer-list-items">
                         <Link to="/">

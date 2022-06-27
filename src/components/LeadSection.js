@@ -2,10 +2,10 @@ import '../CSS/LeadSection.css';
 import {Link} from 'react-router-dom';
 import displayImage from '../images/display/display3.png';
 import image1 from '../images/display/display3.png';
-import image2 from '../images/display/display5.png';
-import image3 from '../images/display/display2.png';
-import image4 from '../images/display/display4.png';
-import image5 from '../images/display/display1.png';
+// import image2 from '../images/display/display5.png';
+// import image3 from '../images/display/display2.png';
+// import image4 from '../images/display/display4.png';
+// import image5 from '../images/display/display1.png';
 import orange from '../images/display/orange.png';
  
 const LeadSection = () => {
@@ -16,7 +16,7 @@ const LeadSection = () => {
                 <div className="product-details-wrapper">
                     <div className="product-text-wrapper">
                         <h1>
-                            Urukpe
+                            Urúkpé
                         </h1>
                         <p>
                             Urukpe is a custom chopping board with woven leather handle and adorned with art.
@@ -39,7 +39,7 @@ const LeadSection = () => {
                         <div className="slide">
                             <img src={image1} className="slide-image" alt="Urukpe Chopping Board"/>
                         </div>
-                        <div className="slide">
+                        {/* <div className="slide">
                             <img src={image2} className="slide-image" alt="Urukpe Chopping Board"/>
                         </div>
                         <div className="slide">
@@ -50,13 +50,13 @@ const LeadSection = () => {
                         </div>
                         <div className="slide">
                             <img src={image5} className="slide-image" alt="Urukpe Chopping Board"/>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="lead-content-wrapper">
                     <div className="text-wrapper">
                         <h1 id='main-heading'>
-                            Urukpe
+                            Urúkpé
                         </h1>
                         <p>
                             Urukpe is a custom chopping board with woven leather handle and adorned with art.

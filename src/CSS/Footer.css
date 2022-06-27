@@ -31,6 +31,12 @@
     font-family: 'DM Sans', sans-serif;
 }
 
+.footer-list-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .footer-list a{
     text-decoration: none;
     color: var(--ls-0);
@@ -90,6 +96,7 @@ form button{
     width: 100%;
     font-size: 50px;
     font-weight: bold;
+    height: 45px;
 }
 
 .footer-icon-wrapper{

@@ -41,7 +41,7 @@
     position: absolute;
     align-items: center;
     left: 0vw;
-    animation: slideShow infinite 50s;
+    /* animation: slideShow infinite 50s; */
 }
 
 .slide{
@@ -52,6 +52,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     overflow: visible;
+    position: relative;
 }
 
 .slide-image{
@@ -129,7 +130,7 @@
     border-radius: 5px;
     font-size: 18px;
 }
-
+/* 
 @keyframes slideShow {
     0%{ left: 0vw; }
     16%{ left: 0vw; }
@@ -142,7 +143,7 @@
     80%{ left: -400vw; }
     96%{ left: -400vw; }
     100%{ left: 0vw; }
-}
+} */
 
 /* styling specific to galaxy fold */
 @media screen and (max-width: 280px) {
@@ -261,6 +262,7 @@
         bottom: -7.5%;
         margin-left: 60px;
         filter: drop-shadow(10px 20px 20px var(--ds-4));
+        z-index: 2;
     }
 
     #displayed-image{

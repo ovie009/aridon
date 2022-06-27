@@ -29,7 +29,18 @@ nav{
     transition: 200ms;
     color: var(--ls-0);
     text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     /* animation: logoColor infinite 50s; */
+}
+
+.light-logo, .dark-logo{
+    height: 50px;
+}
+
+.dark-logo{
+    display: none;
 }
 
 .navlist{
@@ -178,5 +189,15 @@ nav{
     .logo{
         color: var(--ds-3);
         font-size: 65px;
+    }
+
+    
+    .light-logo{
+        display: none;
+    }
+    
+    .dark-logo{
+        height: 65px;
+        display: block;
     }
 }

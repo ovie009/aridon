@@ -1,5 +1,6 @@
 import '../CSS/AboutSection.css';
 import bird from '../images/birds/humming-bird1.png';
+import motif from '../images/motifs/motif1.png';
 
 const AboutSection = () => {
     return (  
@@ -16,6 +17,9 @@ const AboutSection = () => {
                     Aridon is a contemporary yet traditional design studio working across product design Interior. 
                     Blending together patience, perfection and the pursuit of beauty to create sustainable design.
                 </p>
+                <div className="motif">
+                    <img src={motif} alt="" />
+                </div>
             </div>
         </section>
     );

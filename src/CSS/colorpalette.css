@@ -2,7 +2,8 @@
     /* lighter shades */
     --ls-0: #FFFFFF; /* Dark Vanilla */
     --ls-1: hsl(25, 26%, 75%); /* Dark Vanilla */
-    --lst-1: hsla(25, 26%, 75%, 0.5); /* Dark Vanilla */
+    --lst-1: hwb(24 69% 18% / 0.5); /* Dark Vanilla */
+    --lst-4: rgba(36, 9, 0, 0.05); /* Dark Vanilla */
     --ls-2: #e4bab8; /* Craven Pink */
     --lst-2: hsla(3, 45%, 81%, 0.5); /* Craven Pink */
     --ls-3: hsl(30, 41%, 56%); /* Muddy Waters */
@@ -13,6 +14,6 @@
     --dst-1: hsla(5, 63%, 36%, 0.5); /* Vivid Autumn */
     --ds-2: #433028; /* English Walnut */
     --dst-2: hsla(18, 25%, 21%, 0.5); /* English Walnut */
-    --ds-3: #240900; /* kilamanjaro */
+    --ds-3: rgb(36, 9, 0); /* kilamanjaro */
     --ds-4: hsl(18, 100%, 1%); /* kilamanjaro */
 }

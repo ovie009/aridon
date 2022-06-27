@@ -1,6 +1,9 @@
 import '../CSS/Navbar.css';
 import { useState } from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import logoLight from '../images/logo/logo-light.png';
+import logoDark from '../images/logo/logo-dark.png';
+
 
 const Navbar = () => {
 
@@ -13,7 +16,8 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="navbar-wrapper">
                 <Link to="/" className="logo">
-                    aridon
+                    <img src={logoLight} alt="Aridon log" className='light-logo' />
+                    <img src={logoDark} alt="Aridon log" className='dark-logo' />
                 </Link>
                 <button type="button" className='open-sidenav' onClick={handleSidebar}>
                     <ion-icon id="menu-icon" name="menu-outline"></ion-icon>
@@ -38,7 +42,7 @@ const Navbar = () => {
             }}>
                 <div className="sidebar-wrapper">
                     <Link to="/" className="sidebar-logo">
-                        aridon
+                        <img src={logoLight} alt="Aridon log" className='light-logo' />
                     </Link>
                     <button type="button" className='close-sidebar' onClick={handleSidebar}>
                         <ion-icon id="close-icon" name="close-outline"></ion-icon>
