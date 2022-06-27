@@ -35,12 +35,12 @@ const Footer = () => {
                 </ul>
                 <ul className="socials-list">
                     <li className="footer-list-items">
-                        <Link to='/'>
+                        <Link to='https://instagram.com/aridon_design?igshid=YmMyMTA2M2Y='>
                             <ion-icon id="facebook-icon" name="logo-instagram"></ion-icon>
                         </Link>
                     </li>
                     <li className="footer-list-items">
-                        <Link to='/'>   
+                        <Link to='https://wa.me/%2B2347061753946'>   
                             <ion-icon id="whatsapp-icon" name="logo-whatsapp"></ion-icon>
                         </Link>
                     </li>

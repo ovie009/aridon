@@ -132,7 +132,7 @@ nav{
     text-transform: uppercase;
     text-transform: capitalize;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 @media screen and (min-width: 768px) {
@@ -160,6 +160,8 @@ nav{
         transition: 500ms ease-in;
         border-radius: 6px;
         font-weight: bold;
+        letter-spacing: 3px;
+        font-size: 20px;
     }
     
     .navlist-items a:hover{
