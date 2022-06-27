@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=League+Gothic&family=Unica+One&display=swap');
 
 @font-face {
   font-family: 'The Artist Script';
@@ -11,17 +11,28 @@
   margin: 0;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 button{
   border: none;
   background-color: unset;
 }
 
 h1, h2, h3, h4, h5, h6{
-  font-family: 'Prata', serif;
+  font-family: 'Unica One', cursive;
+  font-family: 'League Gothic', sans-serif;
+  letter-spacing: 2px;
 }
 
-p, a{
+p{
   font-family: 'DM Sans', sans-serif;
+}
+
+a{
+  font-family: 'Unica One', cursive;
+  font-family: 'League Gothic', sans-serif;
 }
 
 span{
@@ -31,4 +42,26 @@ span{
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar{
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+
+::-webkit-scrollbar-track{
+  background-color: var(--ds-2);
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: var(--ls-0);
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 2px solid var(--ds-2);
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: var(--ls-1);
 }

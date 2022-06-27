@@ -18,9 +18,23 @@ const Navbar = () => {
                 <button type="button" className='open-sidenav' onClick={handleSidebar}>
                     <ion-icon id="menu-icon" name="menu-outline"></ion-icon>
                 </button>
+                <ul className="navlist">
+                    <li className="navlist-items">
+                        <Link to='/'>Home</Link>
+                    </li>
+                    <li className="navlist-items">
+                        <Link to='/products'>Products</Link>
+                    </li>
+                    <li className="navlist-items">
+                        <Link to='/conatacts'>contacts</Link>
+                    </li>
+                    <li className="navlist-items">
+                        <Link to='/about'>About</Link>
+                    </li>
+                </ul>
             </div>
             <div className="sidebar" style={{
-                bottom: `${sidebar ? '0vh' : '100vh'}`
+                top: `${sidebar ? '0vh' : '-100vh'}`
             }}>
                 <div className="sidebar-wrapper">
                     <Link to="/" className="sidebar-logo">

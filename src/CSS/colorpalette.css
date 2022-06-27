@@ -1,7 +1,7 @@
 :root{
     /* lighter shades */
-    --ls-0: #FFFFFF; /* white */
-    --ls-1: #d1beb0; /* Dark Vanilla */
+    --ls-0: #FFFFFF; /* Dark Vanilla */
+    --ls-1: hsl(25, 26%, 75%); /* Dark Vanilla */
     --lst-1: hsla(25, 26%, 75%, 0.5); /* Dark Vanilla */
     --ls-2: #e4bab8; /* Craven Pink */
     --lst-2: hsla(3, 45%, 81%, 0.5); /* Craven Pink */
@@ -12,6 +12,7 @@
     --ds-1: #972b22; /* Vivid Autumn */
     --dst-1: hsla(5, 63%, 36%, 0.5); /* Vivid Autumn */
     --ds-2: #433028; /* English Walnut */
+    --dst-2: hsla(18, 25%, 21%, 0.5); /* English Walnut */
     --ds-3: #240900; /* kilamanjaro */
-    --dst-3: hsla(15, 100%, 7%, 0.5); /* kilamanjaro */
+    --ds-4: hsl(18, 100%, 1%); /* kilamanjaro */
 }
