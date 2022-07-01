@@ -19,7 +19,7 @@ const Footer = () => {
                 </form>
             </div>
             <div className="footer-base-wrapper">
-                <div className="motif">
+                <div className="motif footer-motif-wrapper">
                     <img src={motif} alt="african motif" id='footer-motif' />
 
                 </div>
