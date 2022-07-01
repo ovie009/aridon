@@ -6,8 +6,8 @@
     --lst-4: rgba(36, 9, 0, 0.05); /* Dark Vanilla */
     --ls-2: #e4bab8; /* Craven Pink */
     --lst-2: hsla(3, 45%, 81%, 0.5); /* Craven Pink */
-    --ls-3: hsl(30, 41%, 56%); /* Muddy Waters */
-    --lst-3: hsla(30, 41%, 56%, 0.5); /* Muddy Waters */
+    --ls-3: #bd8f61; /* Muddy Waters */
+    --lst-3: rgba(189, 143, 97, 0.5); /* Muddy Waters */
 
     /* darker shade */
     --ds-1: #972b22; /* Vivid Autumn */

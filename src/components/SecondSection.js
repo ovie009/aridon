@@ -1,6 +1,6 @@
 import '../CSS/SecondSection.css';
 import secondBird from '../images/birds/humming-bird1.png';
-import motif from '../images/motifs/motif2.png';
+import motif from '../images/motifs/motif6.png';
 
 const SecondSection = () => {
     return (  
@@ -19,7 +19,7 @@ const SecondSection = () => {
                     soothing warmth and swe'tened scents.
                 </p>
                 <div className="motif">
-                    <img src={motif} alt="" />
+                    <img src={motif} alt="african motif" id='second-motif'/>
                 </div>
             </div>
         </section>

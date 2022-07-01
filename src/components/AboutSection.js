@@ -1,6 +1,6 @@
 import '../CSS/AboutSection.css';
 import bird from '../images/birds/humming-bird1.png';
-import motif from '../images/motifs/motif1.png';
+import motif from '../images/motifs/motif5.png';
 
 const AboutSection = () => {
     return (  

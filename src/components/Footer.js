@@ -1,6 +1,7 @@
 import '../CSS/Footer.css';
 import {Link} from 'react-router-dom';
 import logo from '../images/logo/logo-light.png';
+import motif from '../images/motifs/motif8.png';
 
 const Footer = () => {
     return ( 
@@ -18,6 +19,10 @@ const Footer = () => {
                 </form>
             </div>
             <div className="footer-base-wrapper">
+                <div className="motif">
+                    <img src={motif} alt="african motif" id='footer-motif' />
+
+                </div>
                 <ul className="footer-list">
                     <li className="footer-list-items">
                         <img src={logo} alt="aridon logo" className='footer-logo'/>

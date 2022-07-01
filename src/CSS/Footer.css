@@ -54,6 +54,12 @@
     justify-content: space-between;
     flex-flow: column;
     gap: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+#footer-motif{
+    filter: opacity(5%) contrast(200%);
 }
 
 form{

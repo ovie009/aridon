@@ -1,6 +1,6 @@
 import '../CSS/ThirdSection.css';
 import bird from '../images/birds/humming-bird2.png';
-import motif from '../images/motifs/motif3.png';
+import motif from '../images/motifs/motif7.png';
 
 const ThirdSection = () => {
     return (  
@@ -20,7 +20,7 @@ const ThirdSection = () => {
                     A perfect fit for every cooking space
                 </p>
                 <div className="motif">
-                    <img src={motif} alt="" />
+                    <img src={motif} alt="" id="third-motif" />
                 </div>
             </div>
         </section>
